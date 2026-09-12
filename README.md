@@ -106,6 +106,7 @@ Session termination
 Session metadata
 
 This telemetry can be useful for security monitoring and incident investigation.
+```
 
 Findings
 
@@ -208,7 +209,9 @@ Then in your CMD, run:
 
 ```bash
 git add README.md
+```
 
 Then:
 
+```
 git commit -m "Improve project documentation"
