@@ -1,0 +1,41 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Sensitive files
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+
+# Local configuration
+config.local
+secrets/
+credentials/
+
+# Cowrie/T-Pot generated data
+cowrie.log
+cowrie.json
+cowrie.json.*
+var/log/cowrie/
