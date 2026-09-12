@@ -1,9 +1,24 @@
 # Cowrie Honeypot Findings
 
-## 1. SSH Connection
+## SSH Connection Analysis
 
 A controlled SSH connection was initiated from Kali Linux
-against the Cowrie SSH honeypot.
+against the Cowrie SSH honeypot in a virtualized laboratory
+environment.
+
+The connection demonstrated how Cowrie emulates an SSH service
+and records interaction with the honeypot.
+
+### Observed Activity
+
+- SSH connection established
+- SSH authentication interaction
+- User session created
+- Commands entered during the session
+- Session termination recorded
+
+The activity demonstrates the type of telemetry that can be
+collected from an exposed SSH service.
 
 ## 2. Authentication Activity
 
